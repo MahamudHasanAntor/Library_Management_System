@@ -1,0 +1,107 @@
+.content {
+    padding-left: 100px ;
+    padding-right: 100px;
+   
+}
+.content .about{
+    background-color: whitesmoke;
+}
+
+.heading{
+    font-size: 24px;
+}
+.news .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.news .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem;
+}
+
+.news .box-container .box img{
+    height:20rem;
+    width:100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+.news .box-container .box h3{
+    color:var(--green);
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.news .box-container .box p{
+    color:#666;
+    font-size: 1.5rem;
+    padding:.5rem 0;
+}
+
+
+/*contact*/
+.contact .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:1rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background:#fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact .row form .inputBox input,
+.contact .row form .box,
+.contact .row form textarea{
+    width:100%;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    color:#333;
+    padding:1rem;
+    margin:1rem 0;
+    border:.1rem solid rgba(0,0,0,.1);
+    text-transform: none;
+}
+
+.contact .row form .inputBox input:focus,
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+    border-color: var(--green);
+}
+
+.contact .row form .inputBox input{
+    width:49%;
+}
+
+.contact .row form textarea{
+    height:20rem;
+    resize: none;
+}
+
+.contact .row form .btn{
+    margin:.5rem 0;
+}
